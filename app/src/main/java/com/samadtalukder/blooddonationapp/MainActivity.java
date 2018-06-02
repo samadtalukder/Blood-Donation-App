@@ -60,17 +60,15 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.nav_home) {
             // Handle the camera action
-        } else if (id == R.id.nav_tips) {
+        } else if (id == R.id.nav_edit_profile) {
 
-        } else if (id == R.id.nav_FAQs) {
+        } else if (id == R.id.nav_search_donor) {
 
-        } else if (id == R.id.nav_profile_settings) {
+        } else if (id == R.id.nav_donor_history) {
 
-        } else if (id == R.id.nav_help) {
+        } else if (id == R.id.nav_faq) {
 
-        } else if (id == R.id.nav_about) {
-
-        }else if (id == R.id.nav_logout) {
+        } else if (id == R.id.nav_logout) {
 
         }
 

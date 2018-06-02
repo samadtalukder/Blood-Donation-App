@@ -1,36 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <group android:checkableBehavior="single">
+
+    <group android:id="@+id/one">
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/home_ic"
             android:title="Home" />
+    </group>
+    <group android:id="@+id/three">
         <item
-            android:id="@+id/nav_tips"
-            android:icon="@drawable/tips_ic"
-            android:title="Tips For Donar" />
+            android:id="@+id/nav_search_donor"
+            android:icon="@drawable/help_ic"
+            android:title="Search Donor" />
+    </group>
+    <group android:id="@+id/two">
         <item
-            android:id="@+id/nav_FAQs"
+            android:id="@+id/nav_edit_profile"
+            android:icon="@drawable/profile_edit_ic"
+            android:title="Edit Profile" />
+    </group>
+
+    <group android:id="@+id/four">
+        <item
+            android:id="@+id/nav_donor_history"
+            android:icon="@drawable/about"
+            android:title="Donor History" />
+    </group>
+    <group android:id="@+id/five">
+        <item
+            android:id="@+id/nav_faq"
             android:icon="@drawable/faq_ic"
             android:title="FAQs" />
-        <item
-            android:id="@+id/nav_profile_settings"
-            android:icon="@drawable/profile_edit_ic"
-            android:title="Profile Settings" />
-        <item
-            android:id="@+id/nav_help"
-            android:icon="@drawable/help_ic"
-            android:title="Help" />
-
-        <item
-            android:id="@+id/nav_about"
-            android:icon="@drawable/about"
-            android:title="About" />
+    </group>
+    <group android:id="@+id/six">
         <item
             android:id="@+id/nav_logout"
             android:icon="@drawable/logout_ic"
             android:title="Logout" />
     </group>
+
 
 </menu>
